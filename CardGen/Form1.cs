@@ -197,7 +197,7 @@ namespace CardGen
             {
                 StreamWriter cardstosave1 = new StreamWriter(File.Create(NewFile.FileName));
                 cardstosave1.Write("set height 0" + "\r\n" +
-                                    "b native_random_number_generator.cpp:45" + "\r\n" +
+                                    "b breakpfilename_:**" + "\r\n" +
                                     "c" + "\r\n" +
                                     "shell clear" + "\r\n" +
 
